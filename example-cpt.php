@@ -45,7 +45,7 @@ class KBJ_Example_CPT
             'description'         => __( 'Custom Post Type Description', 'text_domain' ),
             'labels'              => $labels,
             'supports'            => array( ),
-            'taxonomies'          => array( ),
+            'taxonomies'          => array( ), // Custom Taxonomy registered later
             'hierarchical'        => false,
             'public'              => true,
             'show_ui'             => true,
